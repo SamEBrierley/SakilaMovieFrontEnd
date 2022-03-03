@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import axios from "axios";
-import bootstrap, { Dropdown } from "bootstrap";
 
 class FilmRow extends React.Component {
   render() {
