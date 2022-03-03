@@ -56,7 +56,7 @@ class FilmTable extends React.Component {
 
   componentDidMount() {
     axios
-      .get("http://54.198.232.90:8080/Home/AllFilms")
+      .get("http://54.90.169.246:8080/Home/AllFilms")
       .then((response) => this.setState({ films: response.data }));
   }
 
