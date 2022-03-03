@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import axios from 'axios';
 
 class FilmRow extends React.Component {
   render() {
